@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.3.min.js" integrity="sha384-T2yuo9Oe71Cz/I4X9Ac5+gpEa5a8PpJCDlqKYO0CfAuEszu1JrXLl8YugMqYe3sM" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="aac4890f-5cab-412c-b1dc-9807755923f3" data-root-id="1002"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1205">
+          {"871740b3-9727-4e4a-81d0-da48718e7149":{"roots":{"references":[{"attributes":{"axis":{"id":"1017"},"dimension":1,"ticker":null},"id":"1019","type":"Grid"},{"attributes":{},"id":"1023","type":"ZoomOutTool"},{"attributes":{},"id":"1045","type":"UnionRenderers"},{"attributes":{"formatter":{"id":"1044"},"ticker":{"id":"1018"}},"id":"1017","type":"CategoricalAxis"},{"attributes":{"data":{"Brand":["Philips","Amazon","Amazon","TP-Link","Google"],"Device":["Philips Hue White Smart Bulb","Fire TV Stick 4K","Amazon Echo Dot","TP-Link Kasa Smart Camera","Google Home Mini"],"Image":["https://m.media-amazon.com/images/I/516MZxTzpIS._AC_SL1001_.jpg","https://images-na.ssl-images-amazon.com/images/I/51ea0oGhZUL._AC_SX569_.jpg","https://images-na.ssl-images-amazon.com/images/I/61u48FEs0rL._AC_SX679_.jpg","https://images-na.ssl-images-amazon.com/images/I/61EQyfKoZsL._AC_SX425_.jpg","https://shop.bt.com/images/product/uni2/DigitalContent/600x450/fg/FGGZ_3206D331-7A1F-42CA-9188-BCAE21AFFF62_large.jpg"],"Price":{"__ndarray__":"AAAAAABAUEAfhetRuP5IQB+F61G4fkFAH4XrUbh+QUAAAAAAAABBQA==","dtype":"float64","order":"little","shape":[5]},"index":[0,1,2,3,4]},"selected":{"id":"1046"},"selection_policy":{"id":"1045"}},"id":"1001","type":"ColumnDataSource"},{"attributes":{},"id":"1018","type":"CategoricalTicker"},{"attributes":{},"id":"1046","type":"Selection"},{"attributes":{"overlay":{"id":"1026"}},"id":"1021","type":"BoxSelectTool"},{"attributes":{},"id":"1020","type":"PanTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1020"},{"id":"1021"},{"id":"1022"},{"id":"1023"},{"id":"1024"},{"id":"1025"},{"id":"1050"}]},"id":"1027","type":"Toolbar"},{"attributes":{},"id":"1022","type":"ZoomInTool"},{"attributes":{},"id":"1024","type":"SaveTool"},{"attributes":{},"id":"1025","type":"ResetTool"},{"attributes":{"items":[{"id":"1049"}],"label_text_font_size":"10px"},"id":"1048","type":"Legend"},{"attributes":{"data_source":{"id":"1001"},"glyph":{"id":"1036"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1037"},"selection_glyph":null,"view":{"id":"1039"}},"id":"1038","type":"GlyphRenderer"},{"attributes":{},"id":"1044","type":"CategoricalTickFormatter"},{"attributes":{},"id":"1042","type":"BasicTickFormatter"},{"attributes":{"callback":null,"tooltips":"\n  &lt;div&gt;\n    &lt;h3&gt;@Device&lt;/h3&gt;\n    &lt;div&gt;&lt;strong&gt;Brand: &lt;/strong&gt;@Brand&lt;/div&gt;\n    &lt;div&gt;&lt;strong&gt;Price: \u00a3&lt;/strong&gt;@Price&lt;/div&gt;\n    &lt;div&gt;&lt;img src=\"@Image\" alt=\"\" width=\"100\" /&gt;&lt;/div&gt;\n  &lt;/div&gt;\n"},"id":"1050","type":"HoverTool"},{"attributes":{"below":[{"id":"1013"}],"center":[{"id":"1016"},{"id":"1019"},{"id":"1048"}],"left":[{"id":"1017"}],"plot_height":500,"plot_width":950,"renderers":[{"id":"1038"}],"title":{"id":"1003"},"toolbar":{"id":"1027"},"x_range":{"id":"1005"},"x_scale":{"id":"1009"},"y_range":{"id":"1007"},"y_scale":{"id":"1011"}},"id":"1002","subtype":"Figure","type":"Plot"},{"attributes":{"label":{"value":"Smart Devices"},"renderers":[{"id":"1038"}]},"id":"1049","type":"LegendItem"},{"attributes":{"source":{"id":"1001"}},"id":"1039","type":"CDSView"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"Device","transform":{"id":"1034"}},"height":{"value":0.4},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"field":"Price"},"y":{"field":"Device"}},"id":"1037","type":"HBar"},{"attributes":{"fill_alpha":{"value":0.9},"fill_color":{"field":"Device","transform":{"id":"1034"}},"height":{"value":0.4},"line_color":{"value":"#1f77b4"},"right":{"field":"Price"},"y":{"field":"Device"}},"id":"1036","type":"HBar"},{"attributes":{},"id":"1011","type":"CategoricalScale"},{"attributes":{"factors":["Philips Hue White Smart Bulb","Fire TV Stick 4K","Amazon Echo Dot","TP-Link Kasa Smart Camera","Google Home Mini"],"palette":["#084594","#2171b5","#4292c6","#6baed6","#9ecae1","#c6dbef","#deebf7","#f7fbff"]},"id":"1034","type":"CategoricalColorMapper"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"1026","type":"BoxAnnotation"},{"attributes":{"text":"Price Per Smart Device"},"id":"1003","type":"Title"},{"attributes":{"axis":{"id":"1013"},"ticker":null},"id":"1016","type":"Grid"},{"attributes":{},"id":"1005","type":"DataRange1d"},{"attributes":{},"id":"1009","type":"LinearScale"},{"attributes":{"axis_label":"Price (\u00a3)","formatter":{"id":"1042"},"ticker":{"id":"1014"}},"id":"1013","type":"LinearAxis"},{"attributes":{},"id":"1014","type":"BasicTicker"},{"attributes":{"factors":["Philips Hue White Smart Bulb","Fire TV Stick 4K","Amazon Echo Dot","TP-Link Kasa Smart Camera","Google Home Mini"]},"id":"1007","type":"FactorRange"}],"root_ids":["1002"]},"title":"Bokeh Application","version":"2.2.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1205').textContent;
+                  var render_items = [{"docid":"871740b3-9727-4e4a-81d0-da48718e7149","root_ids":["1002"],"roots":{"1002":"aac4890f-5cab-412c-b1dc-9807755923f3"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

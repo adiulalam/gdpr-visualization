@@ -1,0 +1,6 @@
+Data,Number,Type,Image
+Amazon Account,4,"Personal Information, Payment Information, Delivery Details, Contents of Reviews",image/amazon_account
+Amazon Software,3,"Data on Searching for Products or Services, Data on Placing an order, Data on Submitting a Review or Compiling a Wishlist",image/amazon_software.png
+Amazon Assistant,6,"User Information, Device Information, Usage History, User Recordings, Device Privacy Settings, Streaming History",image/amazon_assistant.png
+Profile,2,"Personal Description, Photograph of Profile",image/amazon_profile.png
+Amazon Prime Apps,5,"Data on Downloading, Data on Streaming, Data on Viewing, Data on Using Digital Content on a device, Data on Through an App",image/amazon_prime.png

@@ -1,0 +1,5 @@
+Data,Number,Type,Image
+TP-Link Product,4,"Product Purchase History (e.g. the types of products, the purchasing date, the purchasing price, the purchasing place), Invoice, Receipt, Bank Statement ",image/product.png
+TP-Link Service,3,"Case Procedure Information, Incentive Arrangements, References",image/service.png
+TP-Link Apps,4,"Inoformation of Home Network Provider, Communication and Other Systems, Monitoring Information, Use of Business-related Social Media",image/app.png
+TP-Link Website,4,"Name, Address, Home and Mobile Phone Numbers, Email Address",image/website.png

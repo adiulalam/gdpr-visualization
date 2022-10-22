@@ -1,0 +1,6 @@
+Data,Number,Type,Image
+Device Data,6,"Device Attributes, Device Feature, System Software and Security Versions, Network Connectivity & Performance, Recent Successful Android Device Configuration Service Connections, Recent Failed Android Device Configuration Service Connections",image/android_device.png
+Chome,8,"Autofill, Bookmarks, Browser History, Dictionary, Extensions, Search Engines, Sync Settings",image/chrome.png
+Google Account,3,"Google Subsciber Information, Account Recovery Information, IP Activity ",image/google_account.png
+Google Home,6,"User Information, Room Information,  Device Information, State, Usage Information, Usage History, 3rd Party App Integration",image/google_home.png
+Maps,6,"Commute routes, Commute settings, My labeled places, Photos Contribution, Starred Places, Place Reviews",image/google_maps.png
